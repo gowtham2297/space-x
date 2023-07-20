@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+/* ***** Header session ******/
+.Background-Image1{
+    background-image: url(images/spacex01.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; 
+    display: flex;
+}
+
+.Background-Image1 img{
+    width:200px;
+    height: 100px;
+    margin-left: 20px;
+}
+.Background-Image1 .Links{
+    margin-top: 30px;
+}
+.Links a{
+    color: white;
+    text-decoration:none;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Verdana, sans-serif;
+    transition: 0.7s ease;
+}
+.Links a:hover{
+    color: rgb(226, 212, 186);
+    text-decoration: underline;
+}
+/* ***** Middle Part ***** */
+.Text{
+    color: white;
+    position: absolute;
+    text-align: left;
+    bottom: 20%;
+    margin-left: 50px;
+}
+.Text h1{
+    font-size:  48px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    margin-right: 2rem;
+    
+}
+.Text button{
+    margin-top: 50px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    width:200px;
+    height: 70px;
+    border-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Background-Image1 button:hover{
+    color: black;
+    background-color: white;
+   
+} 
+.Background-Image2{
+    background-image: url(images/spacex02.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.Text2{
+    color: white;
+    position: absolute;
+    text-align: left;
+    margin-top: 360px;
+    margin-left: 50px;
+}
+.Text2 h1{
+    font-size:  48px;
+}
+.Background-Image2 button{
+    margin-top: 50px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    width:200px;
+    height: 70px;
+    border-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Background-Image2 button:hover{
+    background-color: white;
+    color: black;
+}
+.Background-Image3{
+    background-image: url(images/spacex03.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.Text3{
+    color: white;
+    position: absolute;
+    text-align: left;
+    margin-top: 380px;
+    margin-left: 50px;
+}
+.Text3 h1{
+    font-size:  50px;
+}
+.Background-Image3 button{
+    margin-top: 50px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    width:200px;
+    height: 70px;
+    border-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Background-Image3 button:hover{
+    background-color:white;
+    color: black;
+}
+
+.Background-Image4{
+    background-image: url(images/spacex04.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.Text4{
+    color: white;
+    position: absolute;
+    text-align: left;
+    margin-top: 390px;
+    margin-left: 50px;
+}
+.Text4 h1{
+    font-size:  50px;
+}
+.Background-Image4 button{
+    margin-top: 50px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    width:200px;
+    height: 70px;
+    border-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Background-Image4 button:hover{
+    background-color:white;
+    color: black;
+}
+/* ***** Footer session ***** */
+.footer{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.footer a{
+    color: white;
+    text-decoration:none;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+/* ***** End of the code ***** */
